@@ -1,0 +1,22 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.",
+  "main": "index.js",
+  "scripts": {
+    "start:client": "cd client && npm start",
+    "start:server": "node server/index.js",
+    "build": "vite build",
+    "preview": "vite preview --port 8080"
+  },
+  "engines": {
+    "node": "v20.11.0"
+  },
+  "proxy": "http://localhost:3001",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
