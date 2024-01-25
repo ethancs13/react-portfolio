@@ -1,0 +1,24 @@
+/* Home Styling */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.home-header, .home-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.home-header {
+    
+}
+.home-footer {
+    
+}
+
+.home-content {
+
+}
