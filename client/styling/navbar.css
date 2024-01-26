@@ -1,0 +1,65 @@
+/* Home Styling */
+html {
+    background-color: #14213d;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+/* flex | header content footer */
+.navbar-header-container {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid rgb(176, 176, 176);
+    font-size: 20px;
+}
+
+/* flex spacing for header and footer */
+.nav-items, .navbar-header,
+.navbar-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-items {
+    width: 60%;
+}
+.nav-socials {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+/* remove underline from footer links */
+.nav-items>*,
+.navbar-footer>* {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-footer>div>a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-footer-container {
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+
+.navbar-footer {
+    background-color: #e5e5e5;
+    border-top: 1px solid rgb(176, 176, 176);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}

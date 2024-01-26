@@ -1,24 +1,96 @@
-/* Home Styling */
-
 .home-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
 }
-
-.home-header, .home-footer {
+.home-innerContainer {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
-}
-.home-header {
-    
-}
-.home-footer {
-    
+    height: 600px;
+    min-width: 90%;
+    background-color: #e5e5e5;
+    margin: 32px;
+    padding: 50px;
 }
 
-.home-content {
+#borderLeft {
+    border-left: 10px solid #fca311;
+    position: absolute;
+    height: 30%;
+    top: 110px;
+    left: 26px;
+    border-radius: 25px;
+}
+#borderTop {
+    border-top: 10px solid #fca311;
+    top: 110px;
+    width: 20%;
+    position: absolute;
+    border-radius: 25px;
+    left: 26px;
+}
+#borderRight {
+    border-right: 10px solid #fca311;
+    position: absolute;
+    height: 30%;
+    bottom: 65px;
+    border-radius: 25px;
+    right: 26px;
+}
+#borderBottom {
+    border-bottom: 10px solid #fca311;
+    bottom: 65px;
+    width: 20%;
+    position: absolute;
+    right: 26px;
+    border-radius: 25px;
+}
 
+
+.list {
+    padding: 20px;
+}
+.list li {
+    list-style: none;
+    text-align: left;
+    padding-top: 5px;
+}
+.list li a {
+    text-decoration: none;
+    color: black;
+}
+.home-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-projects {
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    border-top-left-radius: 15px;
+    padding: 30px;
+}
+
+.home-welcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    width: 35%;
+}
+
+.left {
+    width: 70%;
+    padding-left: 14%;
+}
+.right {
+    width: 30%;
+    padding-right: 14%;
+}
+
+.home-projects-title {
+    text-align: center;
 }
