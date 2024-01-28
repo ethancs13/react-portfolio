@@ -7,7 +7,8 @@ input[type=text], input[type=email], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    text-align: left;
   }
   
   /* Style the submit button with a specific background color etc */
@@ -21,7 +22,7 @@ input[type=text], input[type=email], select, textarea {
   }
 
   label {
-    text-align: left;
+
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
@@ -34,10 +35,13 @@ input[type=text], input[type=email], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    text-align: left;
   }
 
   .message {
     margin-top: 100px;
+    color:white;
+    font-size: larger;
   }
 
   .hidden {

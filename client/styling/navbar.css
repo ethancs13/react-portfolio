@@ -41,6 +41,12 @@ body {
     text-decoration: none;
     color: black;
 }
+.nav-link {
+    border-bottom: none;
+}
+.nav-link:hover {
+    border-bottom: #14213d solid 1px;
+}
 
 .navbar-footer>div>a {
     text-decoration: none;

@@ -40,14 +40,14 @@ const Portfolio = () => {
                 <div className="item">
 
                     <a className="portfolio-item" href="">
-                        <div className="image-container"><img src={svg} alt="" /></div>
+                        <div className="image-container"><img src="./weatherapp.PNG" alt="weatherApp-preview" /></div>
 
                     </a>
                 </div>
                 <div className="item">
 
                     <a className="portfolio-item" href="">
-                        <div className="image-container"><img src={svg} alt="" /></div>
+                        <div className="image-container"><img src="./tech-blog.PNG" alt="techBlog-preview" /></div>
 
                     </a>
                 </div>

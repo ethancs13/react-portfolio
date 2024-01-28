@@ -29,7 +29,8 @@ const Contact = () => {
 
             if (response.data.status === "success") {
                 setMessage('Submitted. Thank you!')
-                document.querySelector('.container').classList.add('hidden')
+                document.querySelector('.container').classList.add('hidden');
+                document.querySelector('.contact-title').classList.add('hidden');
             } else {
                 setMessage('an unexpected error has occurred')
             }

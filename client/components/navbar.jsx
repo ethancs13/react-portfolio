@@ -19,30 +19,30 @@ const Navbar = () => {
                         <h2>Ethan Sroka</h2>
                     </NavLink>
 
-                    <NavLink to="/about" style={({ isActive }) => ({
-                        textDecoration: isActive
-                            ? "underline"
+                    <NavLink className={"nav-link"} to="/about" style={({ isActive }) => ({
+                        borderBottom: isActive
+                            ? "solid black 1px"
                             : "none",
                     })}>
                         About
                     </NavLink>
-                    <NavLink to="/contact" style={({ isActive }) => ({
-                        textDecoration: isActive
-                            ? "underline"
+                    <NavLink className={"nav-link"} to="/contact" style={({ isActive }) => ({
+                        borderBottom: isActive
+                            ? "solid black 1px"
                             : "none",
                     })}>
                         Contact
                     </NavLink>
-                    <NavLink to="/resume" style={({ isActive }) => ({
-                        textDecoration: isActive
-                            ? "underline"
+                    <NavLink className={"nav-link"} to="/resume" style={({ isActive }) => ({
+                        borderBottom: isActive
+                            ? "solid black 1px"
                             : "none",
                     })}>
                         Resume
                     </NavLink>
-                    <NavLink to="/portfolio" style={({ isActive }) => ({
-                        textDecoration: isActive
-                            ? "underline"
+                    <NavLink className={"nav-link"} to="/portfolio" style={({ isActive }) => ({
+                        borderBottom: isActive
+                            ? "solid black 1px"
                             : "none",
                     })}>
                         Portfolio

@@ -1,7 +1,4 @@
-import React, { useState, useEffect } from 'react';
 import '../styling/navbar.css'; // Import the Home CSS file
-import { BrowserRouter as Router, Link } from 'react-router-dom';
-
 
 const Footer = () => {
 
