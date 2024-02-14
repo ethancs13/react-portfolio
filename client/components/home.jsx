@@ -30,11 +30,11 @@ const Home = () => {
                                 <h4 className='home-projects-title'>Projects</h4>
                             </label>
                             <ul name="list" id="list" className='list'>
-                                <li><a href="https://github.com/ethancs13/react">Expense Data Form</a></li>
-                                <li><a href="https://github.com/ethancs13/react-portfolio">React Portfolio</a></li>
-                                <li><a href="https://github.com/ethancs13/social-network-API">Social Network API</a></li>
+                                <li><a href="https://ethancs13.github.io/Lightweight-Weather-App-C6/">Weather App</a></li>
+                                <li><a href="https://ethancs13.github.io/react-portfolio/">React Portfolio</a></li>
+                                <li><a href="https://github.com/ethancs13/Tec-Blog-3000">Tech Blog 3000</a></li>
                                 <li><a href="https://github.com/ethancs13/Work-Day-Scheduler-C5">Workday Scheduler</a></li>
-                                <li><a href="https://github.com/ethancs13/NoteTaker">Simple Note Taker</a></li>
+                                <li><a href="https://github.com/ethancs13/Notepad--">Simple Note Taker</a></li>
                             </ul>
                         </div>
                     </div>
