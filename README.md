@@ -6,7 +6,7 @@
 </h1>
 <h1 align="center">Ethans React Portfolio</h1>
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58a65b0a-226d-4a3f-aa21-88f5c1abf387/deploy-status)](https://app.netlify.com/sites/react-ecs/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <details>
